@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>My Website</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img class="img-personal" src="me.JPG">
+        <p class="p-name" id="myName"></p>
+        <a href="index.html"><button class="home-button">Home</button></a><br>
+        <a href="resume.html" target="_blank"><button class="resume-button">Resume</button></a><br>
+        <a href="contact.html" target="_blank"><button class="contact-button">Contact</button></a>
+    </header>
+    <main>
+        <section style="padding-bottom: 10px;">
+            
+        <section class="section-one">
+            <p class="about-me-p">About me</p>
+            <p class="about-p">I am actively refining my programming skills through the Software Development Diploma program at Bow Valley College in Calgary, Canada.
+                 My academic journey has equipped me with a robust foundation in key languages such as HTML, CSS, JavaScript, and Python.<br>
+                  During a semester abroad at EMU University in Cyprus, I had the opportunity to broaden my knowledge and apply these skills in an international setting.
+                   I am on an exciting trajectory to continually enhance my technical expertise and contribute meaningfully to the dynamic field of software development.
+            </p>
+            <div id="slideshow-container" class="slideshow-container">
+                <!-- Image elements for the slideshow -->
+                <img class="img-slides" src="1.jpg">
+                <img class="img-slides" src="what.jpg">
+                <img class="img-slides" src="2.jpg">
+                <!-- <img class="img-slides" src="Images/new images/Four.jpg"> -->
+            </div>
+        </section>
+
+    </section>
+        <!-- --------------------------- -->
+            <section class="table-section">
+                
+            <table class="table">
+                <hr>
+                <tr>
+                    
+                    <td>
+                        
+                        <p><strong> I am a dedicated and motivated software developer student with a strong academic background,<br>
+                            seeking general job opportunities in Canada.
+                            With a history of high achievement, customer service<br>
+                             experience, and a passion for learning, I am eager to contribute my skills and grow as a professional.
+                           </strong>
+                       </p>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                    <p>
+                       <strong>EDUCATION</strong>  
+                    </p> 
+                    </td>
+                    
+                </tr>
+        
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Sep 2023</strong> Software Development Diploma (Currently student), Bow Valley College, Calgary, Alberta<br>
+                            <strong>2019 High School Diploma in Natural Science Sama High School Karaj Iran GPA: 18.54 out of 20 (A+)</strong>
+                        </p>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        <p>
+                            <strong>VOLUNTEER ACTIVITIES</strong>
+                        </p>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        <p>
+                
+                            Working as a research assistant in the Centre of Innovation and Research into Unmanned Systems<br>
+                            <strong>(CIRUS)</strong> at Southern Alberta Institute <strong>(SAIT)</strong>, Calgary, Canada (currently working)
+                            <ul>
+                            
+                                <li>Collaborated on an AI detection project in CIRUS Lab within a team.</li>
+                                <li>Gained drone piloting skills for project support.</li>
+                                <li>Managed the CIRUS website.</li>
+                            </ul>
+                        </p>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        <p>  <strong>SKILLS</strong> </p>
+        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+         
+                            <ul>
+                                
+                                <li>Programming: Proficient in HTML, CSS, JavaScript, Python and C++</li>
+                                <li>Computer Skills: Microsoft Office Suite (Word, Excel, Access, Outlook)</li>
+                                <li>Mathematics: Strong mathematical background with the ability to teach and assist others.</li>
+                                <li>Team player, Collaborative, problem solver, customer-focused, self-learner</li>
+                            </ul>
+                        </p>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td class="td-down-btn">
+                        <a href="mostafa zamani pro cv (1).pdf" download><button class="Download-button">Click Here To Download My Resume...</button></a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+         <div class="contact">
+            <div class="container">
+                <div class="title">
+                    <h2>Contact<span>Me</span></h2>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact_icon"></div>
+                    <span class="emailitem-first"><a class="email-me" href="mailto:zmnimstfa@gmail.com">zmnimstfa@gmail.com</a></span>
+                    
+                </div>
+    
+                <form action='mailto:zmnimstfa@gmail.com' method='post' enctype="multipart/form-data" name="EmailForm">
+                    <input type="text" placeholder="Name" name="name" required>
+    
+                    <input type="email" placeholder="Email" name="email" required>
+    
+                    <input type="text" placeholder="Subject" name="title">
+    
+                    <textarea placeholder="Message" cols="4" rows="5" name="message" maxlength="300" minlength="50" required></textarea>
+    
+                    <input type="submit" class="send" value="Send">
+                </form>
+            </div>
+        </div>
+    
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+      showNextSlide();
+    </script>
+</body>
+</html>

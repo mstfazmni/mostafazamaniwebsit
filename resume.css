@@ -1,0 +1,143 @@
+table {
+    color: white; 
+    display: flex;
+    width: 60vmax;
+    justify-content: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #297fb945;
+    padding-bottom: 10px;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("pawel-czerwinski-xluuaaydyhs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+    
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100%;
+    width: 30vmax;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    /* background-image: url("Images/66440.jpg"); */
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.p-name{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+button {
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px; 
+  }
+  
+.home-button{
+    padding: 15px 60px;
+    background-color: rgb(201, 52, 102);
+    color: white;
+}
+.home-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.resume-button{
+    padding: 15px 50px;
+    background-color: #3498db;
+    color: white;
+}
+.resume-button:hover{
+    background-color: white;
+    color: black;
+}
+.contact-button{
+    padding: 15px 53px;
+    background-color:rgb(214, 136, 167);
+    color: white;
+}
+.contact-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.Download-button{
+    padding: 15px 53px;
+    background-color: #2980b9;
+    color: white;
+    margin-top: 20px;
+}
+.td-down-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------- */
+
+/*mobile screen*/
+@media (max-width: 768px) {
+
+    .header {
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px;
+        position: relative;
+    }
+
+    .home-button, .resume-button, .contact-button {
+        padding: 20px 100px;
+    }
+    .resume-button{
+        padding: 20px 90px;
+    }
+    .contact-button{
+        padding: 20px 93px;
+    }
+
+    .section-one {
+        height: auto;
+        padding-bottom:10px;
+        padding-right: 10px;
+        position: static;
+      }
+      .table {
+        height: auto; 
+        margin-left: 62px;
+        padding: 10px;
+    } 
+    body{
+        
+        min-height: 100vh;
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: 100%;
+    }
+    
+}

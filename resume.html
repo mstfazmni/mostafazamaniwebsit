@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+    <header class="header">
+        <p class="p-name" id="myName"></p>
+        <a href="index.html" target="_blank"><button class="home-button">Home</button></a><br>
+        <a href="resume.html" target="_blank"><button class="resume-button">Resume</button></a><br>
+        <a href="contact.html" target="_blank"><button class="contact-button">Contact</button></a>
+    </header>
+<main>
+    <section class="table-section">
+    <table class="table">
+        <tr>
+            <td>
+                <p><strong> I am a dedicated and motivated software developer student with a strong academic background,<br>
+                    seeking general job opportunities in Canada.
+                    With a history of high achievement, customer service<br>
+                     experience, and a passion for learning, I am eager to contribute my skills and grow as a professional.
+                   </strong>
+               </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <p>
+               <strong>EDUCATION</strong>  
+            </p> 
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+                    <strong>Sep 2023</strong> Software Development Diploma (Currently student), Bow Valley College, Calgary, Alberta<br>
+                    <strong>2019 High School Diploma in Natural Science Sama High School Karaj Iran GPA: 18.54 out of 20 (A+)</strong>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+                    <strong>VOLUNTEER ACTIVITIES</strong>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+        
+                    Working as a research assistant in the Centre of Innovation and Research into Unmanned Systems<br>
+                    <strong>(CIRUS)</strong> at Southern Alberta Institute <strong>(SAIT)</strong>, Calgary, Canada (currently working)
+                    <ul>
+                    
+                        <li>Collaborated on an AI detection project in CIRUS Lab within a team.</li>
+                        <li>Gained drone piloting skills for project support.</li>
+                        <li>Managed the CIRUS website.</li>
+                    </ul>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>  <strong>SKILLS</strong> </p>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+ 
+                    <ul>
+                        
+                        <li>Programming: Proficient in HTML, CSS, JavaScript, Python and C++</li>
+                        <li>Computer Skills: Microsoft Office Suite (Word, Excel, Access, Outlook)</li>
+                        <li>Mathematics: Strong mathematical background with the ability to teach and assist others.</li>
+                        <li>Team player, Collaborative, problem solver, customer-focused, self-learner</li>
+                    </ul>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td-down-btn">
+                <a href="mostafa zamani pro cv (1).pdf" download><button class="Download-button">Click Here To Download My Resume...</button></a>
+            </td>
+        </tr>
+    </table>
+</section>
+</main>
+<script>
+    //writing my name again and again
+   var myNameElement = document.getElementById("myName");
+    var nameToWrite = "Resume";
+    var index = 0;
+
+    function writeName() {
+        if (index < nameToWrite.length) {
+            myNameElement.innerHTML += nameToWrite.charAt(index);
+            index++;
+            setTimeout(writeName, 300);
+        } else {
+            // reset
+            index = 0;
+            myNameElement.innerHTML = "";
+            setTimeout(writeName, 1000); 
+        }
+    }
+
+    writeName();
+</script>
+</body>
+</html>
